@@ -1,0 +1,31 @@
+@import "colors";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a.btn {
+  text-decoration: none;
+  color: $violet;
+
+  &:visited {
+    color: $violet;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 100px;
+  box-shadow: 0 5px 5px darken($color: $violet, $amount: 10);
+}
